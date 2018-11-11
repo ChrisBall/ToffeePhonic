@@ -8,6 +8,9 @@ If you're familiar with this tool, your machine need to be set up to etch the re
 
 As mentioned in the build instructions, there is a version of the enclosure that incorporates a mic clip, so the instrument can be attached to a stand for easy use.
 
-[ToffeePhonic Basic](svg/ToffeePhonic_basic.svg)
+[ToffeePhonic Basic](https://github.com/ChrisBall/ToffeePhonic/blob/master/svg/ToffeePhonic_basic.svg)
 
-[ToffeePhonic Basic - no mic clip](svg/ToffeePhonic_basic_noMicClip.svg)
+[ToffeePhonic Basic - no mic clip](https://github.com/ChrisBall/ToffeePhonic/blob/master/svg/ToffeePhonic_basic_noMicClip.svg)
+
+
+(Right click/cmd click on "raw" and select "Save Link As..." to download)
