@@ -13,4 +13,4 @@ As mentioned in the build instructions, there is a version of the enclosure that
 [ToffeePhonic Basic - no mic clip](svg/ToffeePhonic_basic_noMicClip.svg)
 
 
-(Right click/cmd click on "raw" and select "Save Link As..." to download)
+(To download, right click/cmd click on your chosen link above and select "Save Link As...")
