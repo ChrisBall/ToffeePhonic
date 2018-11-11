@@ -1,6 +1,7 @@
 # BILL OF MATERIALS
 
 [Feather Wing Music Maker](https://www.adafruit.com/product/3357),[set up for MIDI](https://learn.adafruit.com/adafruit-music-maker-featherwing/midi-synth)
+
 [UK Supplier](https://shop.pimoroni.com/products/adafruit-music-maker-featherwing-mp3-ogg-wav-midi-synth-player)
 
 -Feather 32u4 proto
