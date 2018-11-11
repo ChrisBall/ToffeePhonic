@@ -1,6 +1,6 @@
 ### ToffeePhonic
 
-![](https://chrisball.github.io/ToffeePhonic/docs/img/000.jpg "ToffeePhonic")
+![](https://chrisball.github.io/ToffeePhonic/docs/img/001.jpg "ToffeePhonic")
 
 ToffeePhonic is an open-source range sensing instrument. It measures distance using a Time-Of-Flight (TOF) sensor and converts the range into music with it's onboard synthesiser, or send MIDI out over USB.
 
