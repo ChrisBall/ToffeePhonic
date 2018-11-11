@@ -1,9 +1,7 @@
-#BILL OF MATERIALS
+# BILL OF MATERIALS
 
--Feather VS1053 MP3 module (Set up for midi playback):
-https://www.adafruit.com/product/3357
-https://learn.adafruit.com/adafruit-music-maker-featherwing/midi-synth
-(UK) https://shop.pimoroni.com/products/adafruit-music-maker-featherwing-mp3-ogg-wav-midi-synth-player
+[Feather Wing Music Maker](https://www.adafruit.com/product/3357),[set up for MIDI](https://learn.adafruit.com/adafruit-music-maker-featherwing/midi-synth)
+[UK Supplier](https://shop.pimoroni.com/products/adafruit-music-maker-featherwing-mp3-ogg-wav-midi-synth-player)
 
 -Feather 32u4 proto
 https://www.adafruit.com/product/2771
