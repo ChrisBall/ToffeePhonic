@@ -6,6 +6,11 @@ The instructions here should contain everything you need to build your own, incl
 Development of the instrument and this guide has been part-funded by the wonderful [Drake Music](http://www.drakemusic.org/)
 
 [Bill of materials](docs/BOM.md)
+
+[Laser Cutting Files](docs/LaserFiles.md)
+
 [Build guide](docs/Build.md)
+
 [Instructions for use](docs/Instructions.md)
+
 
