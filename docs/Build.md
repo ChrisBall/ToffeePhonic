@@ -63,49 +63,89 @@ That's it, your menu board is finished!
 
 1. Take your breakaway header sockets and cut them to the lengths of the long rows on each side of the Feather 32u4 proto
 
+![Feather 32u4, music maker wing and headers](img/013.jpg)
+
+
 1. Solder them onto the board, as pictured. Make sure they're flush and straight.
+
+![Feather 32u4 and header sockets](img/014.jpg)
+
 
 1. Solder the corresponding header pins onto the Feather Wing Music Maker.
 
-1. If you haven't done so already, prepare the Feather Wing Music Maker for MIDI mode by bridging the jumper marked "MIDI" on the underside of the board.
+![Music maker wing and header pins](img/015.jpg)
+
+
+1. If you haven't done so already, prepare the Feather Wing Music Maker for MIDI mode by bridging the solder jumper marked "MIDI" on the underside of the board.
+
 
 1. Check they fit nicely together.
 
+![Controller & synthesiser assembly](img/016.jpg)
+
+
 # VL53L1X setup
 
-1. Solder the right angled headers (these should come with module) into the board, as pictured. We don't want the pins to stick out too much on the component side, as they will get in the way later.
+1. Solder the right angled headers (these should come with the module) into the board, as pictured. We don't want the pins to stick out too much on the component side, as they will get in the way later, when mounting the module to the enclosure.
+
+![VL53L1X preparation](img/017.jpg)
+
+![VL53L1X preparation](img/018.jpg)
+
 
 # Putting it all together
 
 1. Start by soldering the five wires from your menu board to the Feather Wing Music Maker. Wire should be connected from buttons: left, up, center, down, right to pins 5,6,9,10 and 11 respectively. You may have to refer to the Feather 32u4 proto for the pin numbering as they're not printed on the music maker shield. Don't worry too much about getting this exact order - if you make a mistake you should be able to fix it later in software.
 
+![Connecting menu buttons](img/019.jpg)
+
+
 1. Then, connect the SDA and SCL from your OLED to SDA and SCL on the Feather Wing Music Maker.
+
+![Connecting menu I2C](img/020.jpg)
+
 
 1. Finally, connect VCC and GND from your OLED to 3V3 and GND on the Feather Wing Music Maker. Your menu board is now connected.
 
+![Connecting menu buttons](img/021.jpg)
+
+
 1. Using 4 dupont jumper wires, cut the (non female) ends off - we'll be using these to connect the VL53L1X Time-Of-Flight Sensor to the main boards - leave as much length as you can (because it's better than them being too short).
 
-1. Solder the four wires to SDA, SCL, 3V3 , and GND on the Feather Wing Music Maker. Again, it doesn't matter which is which, as long as YOU know.
+
+1. Solder the four wires to SDA, SCL, 3V3 , and GND on the Feather Wing Music Maker. Again, it doesn't matter which colour is which, as long as YOU know.
+
+![Connecting VL53L1X wires](img/022.jpg)
+
 
 1. Connect these four wires: SDA, SCL, 3V3, GND, to the following pins on your VL53L1X breakout: SDA, SCL, VIN, GND (respectively).
+
 
 1. If the Feather Wing Music Maker is not connected to your Feather 32U4, do so now.
 
 That's all the electronics parts done! You may wish to program and test this now, before we put it into the case to identify any problems. 
 
+
 # Programming
 
 1. Download the arduino code here (LINK)
 
+
 1. Download the arduino IDE (if you don't already have it) here (LINK).
 
+
 1. In the arduino IDE, add the following text to your "Additional boards manager URLs" in the File->preferences menu:
+
 "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json"
+
 this will add all the adafruit manufactured boards to your Tools->Board menu.
+
 
 1. Select "Adafruit Feather 32U4" from the boards menu.
 
+
 1. Upload the code to the board. You may need to press the reset button to initiate an upload.
+
 
 1. You should see the menu on the OLED display, and be able to control it from the buttons. If you need to change the button order, find the line:
 
@@ -115,24 +155,41 @@ const byte buttonPins[] = {6,5,9,11,10}; //UP, LEFT, CENTRE, RIGHT, DOWN
 
 and swap the pin numbers as necessary.
 
+
 1. if you connect some headphones or a line out to an amplifier, you should hear sounds when you interact with the VL53L1X sensor, and receive MIDI over the MIDI USB device that appears.
+
 
 # Enclosure
 
 -Using a laser cutter, cut the parts from this file (LINK). Use the ToffeePhonic_basic_noMicClip if you are not planning to use a Mic attachment to mount your device. In your setup, You will need to etch the RED, cut the BLACK, and then cut the BLUE paths, in any 3mm material (I've used 3mm Birch/Poplar laser ply).
 
+
 1. Glue the rectangular spacer in place on the base. Each hole should line up perfectly with the centre of each hexagon on the base piece.
 
-1. Glue together these 5 parts: the two sides, the front and back, and the base, as pictured.
+
+1. Glue together these 5 parts: the two sides, the front and back, and the base.
+
 
 1. Use elastic bands the hold the parts in place while the glue sets (it should only take ten minutes for this to set enough to continue). Make sure the sides are straight and fit neatly.
 
 1. If you are using the mic clip version, glue in the two circular clips now. You can use a pencil or pen and another elastic band to hold this in place while the glue sets.
 
-1. Screw the motherboard mounting screw into the central hole in the base using your pliers.
+![gluing enclosure](img/023.jpg)
+
+
+1. Screw the motherboard mounting screw into the central hole in the base using your pliers. It should fit tightly, and not come out when tugged (lightly).
+
+![Mounting screw](img/024.jpg)
+
 
 1. Take the front panel, 8 x M3 nuts, and 4 x M3x16 screws. Affix the two nuts as spacers, as shown.
 
+![Mounting hardware](img/025.jpg)
+
+
 1. Line up your menu panel, and push onto the screws as gently as possible. Take real care not to damage the OLED during this process. If there is a problem with fitting (e.g. the OLED is too far over) try reaming out the 3mm holes on the stripboard to a larger size, such as 3.5mm or 4mm. Affix the panel with the last 4 nuts. You should hear and feel a click when you press the buttons.
+
+![Mounting hardware](img/026.jpg)
+
 
 1. TO BE CONTINUED...
