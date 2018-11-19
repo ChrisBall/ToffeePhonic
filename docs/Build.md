@@ -20,10 +20,10 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 ![cutting tracks between buttons](img/004.jpg)
 
 
-1. Solder the buttons in place (make sure they're flush with the board).
+1. Solder the buttons in place. Make sure they're flush with the board, and that the solder does not spill over the cut track.
 
 
-1. Remove the plastic spacer from the I2C OLED display. Usually I begin by (carefully) levering this off with some wire cutters and pull it off with pliers once it's loose. Be warned - the glass parts of the OLED display are VERY fragile and can stop the display from functioning if broken.
+1. Remove the plastic spacer from the I2C OLED display. Usually I begin by (carefully) levering this off with some wire cutters and pull it off with pliers once it's loose. Be warned - the glass corners of the OLED display are VERY fragile and can stop the display from functioning if broken. It's a good idea to inspect your display as you open it in case it's been damaged during transit.
 
 ![removing header spacer](img/005.jpg)
 
