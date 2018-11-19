@@ -4,12 +4,12 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 1. Cut/snap a piece of copper stripboard (0.1" spacing) so you have 24 x 12 holes to work with, with the strips running in the direction of the short sides. We will be placing the components on this board as shown.
 
-![Component placing](img/000.jpg)
+    ![Component placing](img/000.jpg)
 
 
 2. Drill (to 3mm) the 4 holes at (1,2), (24,2), (1,11), and (24,11) - as pictured.
 
-![Drill 3mm holes in board](img/001.jpg)
+    ![Drill 3mm holes in board](img/001.jpg)
 
 
 3. Put the buttons in place (don't solder them yet), with their top left pins in positions (1,5), (5,1), (5,5), (5,9), (9,5), as pictured in the first image.
@@ -17,7 +17,7 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 4. Carefully, cut the copper tracks with the craft knife: between holes (5,4) and (5,5); and (5,8) and (5,9) (highlighted in the picture).
 
-![cutting tracks between buttons](img/004.jpg)
+    ![cutting tracks between buttons](img/004.jpg)
 
 
 5. Solder the buttons in place. Make sure they're flush with the board, and that the solder does not spill over the cut track.
@@ -25,26 +25,26 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 6. Remove the plastic spacer from the I2C OLED display. Usually I begin by (carefully) levering this off with some wire cutters and pull it off with pliers once it's loose. Be warned - the glass corners of the OLED display are VERY fragile and can stop the display from functioning if broken. It's a good idea to inspect your display as you open it in case it's been damaged during transit.
 
-![removing header spacer](img/005.jpg)
+    ![removing header spacer](img/005.jpg)
 
 
 7. Solder the OLED in place - the GND pin should be in position (16,2), as below. Try to keep the OLED as far to the left as you can - this small distance will help prevent the OLED from touching the mounting hardware later.
 
-![Soldering OLED](img/006.jpg)
+    ![Soldering OLED](img/006.jpg)
 
 
 8. The rear of your board should now look like this:
 
-![Board rear after soldering OLED and buttons](img/007.jpg)
+    ![Board rear after soldering OLED and buttons](img/007.jpg)
 
 
 9. Solder in the ground connections - there is one between your OLED GND strip (strip 16) and the left side of the right menu button (strip 9), and one between strip 9 and strip 3. Add solder between strip 9 and strip 7 to complete the GND connections.
 
-![GND connection placement](img/008.jpg)
+    ![GND connection placement](img/008.jpg)
 
-![GND connection placement](img/009.jpg)
+    ![GND connection placement](img/009.jpg)
 
-![GND connection placement](img/010.jpg)
+    ![GND connection placement](img/010.jpg)
 
 
 10. Prepare your ribbon cable - pull the wires apart a little, and strip about 2-3mm off the end of each wire and tin with solder.
@@ -52,28 +52,28 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 11. Begin soldering connections between the ribbon cable at the menu board. We need to connect the four OLED pins (GND, VCC, SCL, SDA) and another five for the GND side of each switch. He're I've used the only red wire on my cable for VCC and the others depending on which wire seemed closest. The order you use doesn't matter too much, as long as YOU know which wire is connected to what. I recommend writing this down as you go.
 
-![Wired connections](img/011.jpg)
+    ![Wired connections](img/011.jpg)
 
-That's it, your menu board is finished! 
+    That's it, your menu board is finished! 
 
-![Completed menu board](img/012.jpg)
+    ![Completed menu board](img/012.jpg)
 
 
 # Microcontroller and Feather wing music maker shield
 
 1. Take your breakaway header sockets and cut them to the lengths of the long rows on each side of the Feather 32u4 proto
 
-![Feather 32u4, music maker wing and headers](img/013.jpg)
+    ![Feather 32u4, music maker wing and headers](img/013.jpg)
 
 
 2. Solder them onto the board, as pictured. Make sure they're flush and straight.
 
-![Feather 32u4 and header sockets](img/014.jpg)
+    ![Feather 32u4 and header sockets](img/014.jpg)
 
 
 3. Solder the corresponding header pins onto the Feather Wing Music Maker.
 
-![Music maker wing and header pins](img/015.jpg)
+    ![Music maker wing and header pins](img/015.jpg)
 
 
 4. If you haven't done so already, prepare the Feather Wing Music Maker for MIDI mode by bridging the solder jumper marked "MIDI" on the underside of the board.
@@ -81,33 +81,33 @@ That's it, your menu board is finished!
 
 5. Check they fit nicely together.
 
-![Controller & synthesiser assembly](img/016.jpg)
+    ![Controller & synthesiser assembly](img/016.jpg)
 
 
 # VL53L1X setup
 
 1. Solder the right angled headers (these should come with the module) into the board, as pictured. We don't want the pins to stick out too much on the component side, as they will get in the way later, when mounting the module to the enclosure.
 
-![VL53L1X preparation](img/017.jpg)
+    ![VL53L1X preparation](img/017.jpg)
 
-![VL53L1X preparation](img/018.jpg)
+    ![VL53L1X preparation](img/018.jpg)
 
 
 # Putting it all together
 
 1. Start by soldering the five wires from your menu board to the Feather Wing Music Maker. Wire should be connected from buttons: left, up, center, down, right to pins 5,6,9,10 and 11 respectively. Don't worry too much about getting this exact order - if you make a mistake you should be able to fix it later in software. You may have to refer to the Feather 32u4 proto for the pin numbering as they're not printed on the music maker shield. 
 
-![Connecting menu buttons](img/019.jpg)
+    ![Connecting menu buttons](img/019.jpg)
 
 
 2. Then, connect the SDA and SCL from your OLED to SDA and SCL on the Feather Wing Music Maker.
 
-![Connecting menu I2C](img/020.jpg)
+    ![Connecting menu I2C](img/020.jpg)
 
 
 3. Finally, connect VCC and GND from your OLED to 3V3 and GND on the Feather Wing Music Maker. Your menu board is now connected.
 
-![Connecting menu buttons](img/021.jpg)
+    ![Connecting menu buttons](img/021.jpg)
 
 
 4. Using 4 dupont jumper wires, cut the (non female) ends off - we'll be using these to connect the VL53L1X Time-Of-Flight Sensor to the main boards - leave as much length as you can (because it's better than them being too short).
@@ -115,7 +115,7 @@ That's it, your menu board is finished!
 
 5. Solder the four wires to SDA, SCL, 3V3 , and GND on the Feather Wing Music Maker. Again, it doesn't matter which colour is which, as long as YOU know.
 
-![Connecting VL53L1X wires](img/022.jpg)
+    ![Connecting VL53L1X wires](img/022.jpg)
 
 
 6. Connect these four wires: SDA, SCL, 3V3, GND, to the following pins on your VL53L1X breakout: SDA, SCL, VIN, GND (respectively).
@@ -123,7 +123,7 @@ That's it, your menu board is finished!
 
 7. If the Feather Wing Music Maker is not connected to your Feather 32U4, do so now.
 
-That's all the electronics parts done! You may wish to program and test this now, before we put it into the case to identify any problems. 
+    That's all the electronics parts done! You may wish to program and test this now, before we put it into the case to identify any problems. 
 
 
 # Programming
@@ -136,9 +136,9 @@ That's all the electronics parts done! You may wish to program and test this now
 
 3. In the arduino IDE, add the following text to your "Additional boards manager URLs" in the File->preferences menu:
 
-"https://adafruit.github.io/arduino-board-index/package_adafruit_index.json"
+    "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json"
 
-this will add all the adafruit manufactured boards to your Tools->Board menu.
+    this will add all the adafruit manufactured boards to your Tools->Board menu.
 
 
 4. Select "Adafruit Feather 32U4" from the boards menu.
