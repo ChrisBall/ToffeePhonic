@@ -6,31 +6,57 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 ![Component placing](img/000.jpg)
 
+
 1. Drill (to 3mm) the 4 holes at (1,2), (24,2), (1,11), and (24,11) - as pictured.
 
 ![Drill 3mm holes in board](img/001.jpg)
 
-1. Put the buttons in place (don't solder them yet), with their top left pins in positions (1,5), (5,1), (5,5), (5,9), (9,5), as pictured above.
+
+1. Put the buttons in place (don't solder them yet), with their top left pins in positions (1,5), (5,1), (5,5), (5,9), (9,5), as pictured in the first image.
+
 
 1. Carefully, cut the copper tracks with the craft knife: between holes (5,4) and (5,5); and (5,8) and (5,9) (highlighted in the picture).
 
 ![cutting tracks between buttons](img/004.jpg)
 
+
 1. Solder the buttons in place (make sure they're flush with the board).
+
 
 1. Remove the plastic spacer from the I2C OLED display. Usually I begin by (carefully) levering this off with some wire cutters and pull it off with pliers once it's loose. Be warned - the glass parts of the OLED display are VERY fragile and can stop the display from functioning if broken.
 
 ![removing header spacer](img/005.jpg)
 
-1. Solder the OLED in place - the GND pin should be in position (16,2), as pictured.
 
-1. Solder in the ground connections - there is one between your OLED GND strip (strip 16) and the left side of the right button (strip 9), and one between strip 9 and strip 3. Add solder between strip 9 and strip 7 to complete the GND connections.
+1. Solder the OLED in place - the GND pin should be in position (16,2), as below. Try to keep the OLED as far to the left as you can - this small distance will help prevent the OLED from touching the mounting hardware later.
+
+![Soldering OLED](img/006.jpg)
+
+
+1. The rear of your board should now look like this:
+
+![Board rear after soldering OLED and buttons](img/007.jpg)
+
+
+1. Solder in the ground connections - there is one between your OLED GND strip (strip 16) and the left side of the right menu button (strip 9), and one between strip 9 and strip 3. Add solder between strip 9 and strip 7 to complete the GND connections.
+
+![GND connection placement](img/008.jpg)
+
+![GND connection placement](img/009.jpg)
+
+![GND connection placement](img/010.jpg)
+
 
 1. Prepare your ribbon cable - pull the wires apart a little, and strip about 2-3mm off the end of each wire and tin with solder.
 
+
 1. Begin soldering connections between the ribbon cable at the menu board. We need to connect the four OLED pins (GND, VCC, SCL, SDA) and another five for the GND side of each switch. He're I've used the only red wire on my cable for VCC and the others depending on which wire seemed closest. The order you use doesn't matter too much, as long as YOU know which wire is connected to what. I recommend writing this down as you go.
 
-That's it, your menu board is finished. 
+![Wired connections](img/011.jpg)
+
+That's it, your menu board is finished! 
+
+![Completed menu board](img/012.jpg)
 
 
 # Microcontroller and Feather wing music maker shield
