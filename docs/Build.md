@@ -161,7 +161,7 @@ and swap the pin numbers as necessary.
 
 # Enclosure
 
--Using a laser cutter, cut the parts from this file (LINK). Use the ToffeePhonic_basic_noMicClip if you are not planning to use a Mic attachment to mount your device. In your setup, You will need to etch the RED, cut the BLACK, and then cut the BLUE paths, in any 3mm material (I've used 3mm Birch/Poplar laser ply).
+1. Using a laser cutter, cut the parts from this file: [Laser Cutting Files](docs/LaserFiles.md). Use the ToffeePhonic_basic_noMicClip if you are not planning to use a Mic attachment to mount your device. In your laser setup, You will need to etch the RED, cut the BLACK, and then cut the BLUE paths, in any 3mm material (I've used 3mm Birch/Poplar laser ply).
 
 
 1. Glue the rectangular spacer in place on the base. Each hole should line up perfectly with the centre of each hexagon on the base piece.
@@ -174,22 +174,22 @@ and swap the pin numbers as necessary.
 
 4. If you are using the mic clip version, glue in the two circular clips now. You can use a pencil or pen and another elastic band to hold this in place while the glue sets.
 
-![gluing enclosure](img/023.jpg)
+    ![gluing enclosure](img/023.jpg)
 
 
 5. Screw the motherboard mounting screw into the central hole in the base using your pliers. It should fit tightly, and not come out when tugged (lightly).
 
-![Mounting screw](img/024.jpg)
+    ![Mounting screw](img/024.jpg)
 
 
 6. Take the front panel, 8 x M3 nuts, and 4 x M3x16 screws. Affix the two nuts as spacers, as shown.
 
-![Mounting hardware](img/025.jpg)
+    ![Mounting hardware](img/025.jpg)
 
 
 7. Line up your menu panel, and push onto the screws as gently as possible. Take real care not to damage the OLED during this process. If there is a problem with fitting (e.g. the OLED is too far over) try reaming out the 3mm holes on the stripboard to a larger size, such as 3.5mm or 4mm. Affix the panel with the last 4 nuts. You should hear and feel a click when you press the buttons.
 
-![Mounting hardware](img/026.jpg)
+    ![Mounting hardware](img/026.jpg)
 
 
 1. TO BE CONTINUED...
