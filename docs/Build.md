@@ -95,7 +95,7 @@ That's it, your menu board is finished!
 
 # Putting it all together
 
-1. Start by soldering the five wires from your menu board to the Feather Wing Music Maker. Wire should be connected from buttons: left, up, center, down, right to pins 5,6,9,10 and 11 respectively. You may have to refer to the Feather 32u4 proto for the pin numbering as they're not printed on the music maker shield. Don't worry too much about getting this exact order - if you make a mistake you should be able to fix it later in software.
+1. Start by soldering the five wires from your menu board to the Feather Wing Music Maker. Wire should be connected from buttons: left, up, center, down, right to pins 5,6,9,10 and 11 respectively. Don't worry too much about getting this exact order - if you make a mistake you should be able to fix it later in software. You may have to refer to the Feather 32u4 proto for the pin numbering as they're not printed on the music maker shield. 
 
 ![Connecting menu buttons](img/019.jpg)
 
@@ -156,7 +156,7 @@ const byte buttonPins[] = {6,5,9,11,10}; //UP, LEFT, CENTRE, RIGHT, DOWN
 and swap the pin numbers as necessary.
 
 
-7. if you connect some headphones or a line out to an amplifier, you should hear sounds when you interact with the VL53L1X sensor, and receive MIDI over the MIDI USB device that appears.
+7. If you connect some headphones or a line out to an amplifier, you should hear sounds when you interact with the VL53L1X sensor, and receive MIDI over the MIDI USB device that appears.
 
 
 # Enclosure
