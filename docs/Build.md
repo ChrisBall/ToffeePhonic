@@ -192,4 +192,4 @@ and swap the pin numbers as necessary.
     ![Mounting hardware](img/026.jpg)
 
 
-1. TO BE CONTINUED...
+1. TO BE CONTINUED...We'll cover connecting everything together. Haven't done this yet due to a lack of accurate photos. In brief, the VL53L1X is mounted with 2 x m2 screws to the front of the case, the feather 32u4 is mounted using 4 x m2 screws to the baseplate, the cover is placed, and a final M3 x 30mm screw in the center holds everything together. Mic clip is also attached.
