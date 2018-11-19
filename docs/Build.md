@@ -1,20 +1,26 @@
 ## Build guide
 
-Menu Breakout (this will hopefully be replaced by a single PCB in future versions)
+Menu Breakout (this will hopefully be replaced by a single PCB in future versions):
 
-1. Cut/snap a piece of copper stripboard (0.1" spacing) so you have 24 x 12 holes to work with, with the strips running in the direction of the short sides.
+1. Cut/snap a piece of copper stripboard (0.1" spacing) so you have 24 x 12 holes to work with, with the strips running in the direction of the short sides. We will be placing the components on this board as shown.
+
+![Component placing](img/000.jpg)
 
 1. Drill (to 3mm) the 4 holes at (1,2), (24,2), (1,11), and (24,11) - as pictured.
 
 ![Drill 3mm holes in board](img/001.jpg)
 
-1. Put the buttons in place (don't solder them yet), with their top left pins in positions (1,5), (5,1), (5,5), (5,9), (9,5), as pictured.
+1. Put the buttons in place (don't solder them yet), with their top left pins in positions (1,5), (5,1), (5,5), (5,9), (9,5), as pictured above.
 
 1. Carefully, cut the copper tracks with the craft knife: between holes (5,4) and (5,5); and (5,8) and (5,9) (highlighted in the picture).
+
+![cutting tracks between buttons](img/004.jpg)
 
 1. Solder the buttons in place (make sure they're flush with the board).
 
 1. Remove the plastic spacer from the I2C OLED display. Usually I begin by (carefully) levering this off with some wire cutters and pull it off with pliers once it's loose. Be warned - the glass parts of the OLED display are VERY fragile and can stop the display from functioning if broken.
+
+![removing header spacer](img/005.jpg)
 
 1. Solder the OLED in place - the GND pin should be in position (16,2), as pictured.
 
