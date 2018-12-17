@@ -164,32 +164,54 @@ and swap the pin numbers as necessary.
 1. Using a laser cutter, cut the parts from this file: [Laser Cutting Files](docs/LaserFiles.md). Use the ToffeePhonic_basic_noMicClip if you are not planning to use a Mic attachment to mount your device. In your laser setup, You will need to etch the RED, cut the BLACK, and then cut the BLUE paths, in any 3mm material (I've used 3mm Birch/Poplar laser ply).
 
 
-1. Glue the rectangular spacer in place on the base. Each hole should line up perfectly with the centre of each hexagon on the base piece.
+2. Glue the rectangular spacer in place on the base. Each hole should line up perfectly with the centre of each hexagon on the base piece.
+
+    ![gluing base](img/030.jpg)
 
 
-2. Glue together these 5 parts: the two sides, the front and back, and the base.
+3. Glue together these 5 parts: the two sides, the front and back, and the base.
+
+    ![gluing enclosure](img/031.jpg)
 
 
-3. Use elastic bands the hold the parts in place while the glue sets (it should only take ten minutes for this to set enough to continue). Make sure the sides are straight and fit neatly.
+4. Use elastic bands the hold the parts in place while the glue sets (it should only take ten minutes for this to set enough to continue). Make sure the sides are straight and fit neatly.
+	
 
-4. If you are using the mic clip version, glue in the two circular clips now. You can use a pencil or pen and another elastic band to hold this in place while the glue sets.
+5. If you are using the mic clip version, glue in the two circular clips now. You can use a pencil or pen and another elastic band to hold this in place while the glue sets.
 
     ![gluing enclosure](img/023.jpg)
 
 
-5. Screw the motherboard mounting screw into the central hole in the base using your pliers. It should fit tightly, and not come out when tugged (lightly).
+6. Screw the motherboard mounting screw into the central hole in the base using your pliers. It should fit tightly, and not come out when tugged (lightly).
 
     ![Mounting screw](img/024.jpg)
 
 
-6. Take the front panel, 8 x M3 nuts, and 4 x M3x16 screws. Affix the two nuts as spacers, as shown.
+7. Take the front panel, 8 x M3 nuts, and 4 x M3x16 screws. Affix the two nuts as spacers, as shown.
 
     ![Mounting hardware](img/025.jpg)
 
 
-7. Line up your menu panel, and push onto the screws as gently as possible. Take real care not to damage the OLED during this process. If there is a problem with fitting (e.g. the OLED is too far over) try reaming out the 3mm holes on the stripboard to a larger size, such as 3.5mm or 4mm. Affix the panel with the last 4 nuts. You should hear and feel a click when you press the buttons.
+8. Line up your menu panel, and push onto the screws as gently as possible. Take real care not to damage the OLED during this process. If there is a problem with fitting (e.g. the OLED is too far over) try reaming out the 3mm holes on the stripboard to a larger size, such as 3.5mm or 4mm. Affix the panel with the last 4 nuts. You should hear and feel a click when you press the buttons.
 
     ![Mounting hardware](img/026.jpg)
 
 
-1. TO BE CONTINUED...We'll cover connecting everything together. Haven't done this yet due to a lack of accurate photos. In brief, the VL53L1X is mounted with 2 x m2 screws to the front of the case, the feather 32u4 is mounted using 4 x m2 screws to the baseplate, the cover is placed, and a final M3 x 30mm screw in the center holds everything together. Mic clip is also attached.
+9. Mount the feather 32U4 to the rounded rectangle mount with 4 x M2 screws & nuts.
+
+    ![Mounting VL53L1X](img/027.jpg)
+	
+	
+10. Mount the VL53L1X module to the front of the case with 2 x M2 screws & nuts. The TOF sensor should fit in the rectangular window, and remember to remove the small orange protective cover from the sensor itself.
+
+    ![Mounting VL53L1X](img/028.jpg)
+	
+	
+11. Connect the wires for the VL53L1X module (if they are not connected already)
+
+    ![Mounting VL53L1X](img/029.jpg)
+	
+	
+12. Insert the MP3 codec module, close the front cover, and insert the final M3 screw, which should hold the cover in place. Add the mic clip. You're done!
+
+    ![Mounting VL53L1X](img/000.jpg)
