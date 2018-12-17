@@ -212,6 +212,6 @@ and swap the pin numbers as necessary.
     ![Mounting VL53L1X](img/029.jpg)
 	
 	
-12. Insert the MP3 codec module, close the front cover, and insert the final M3 screw, which should hold the cover in place. Add the mic clip. You're done! Take a look at the [instructions](docs/Instructions.md) to get the most from your ToffeePhonic.
+12. Insert the MP3 codec module, close the front cover, and insert the final M3 screw, which should hold the cover in place. Add the mic clip. You're done! Take a look at the [instructions](Instructions.md) to get the most from your ToffeePhonic.
 
     ![Mounting VL53L1X](img/000.jpg)
