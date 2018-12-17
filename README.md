@@ -18,5 +18,5 @@ The instructions here should contain everything you need to build your own, incl
 
 [This project on Github](https://github.com/ChrisBall/ToffeePhonic)
 
-Development of the instrument and this guide has been part-funded by the wonderful [Drake Music](http://www.drakemusic.org/).
+Development of the instrument and this guide has been part-funded by the wonderful [Drake Music](http://www.drakemusic.org/). No liability is assumed for anything! It is your responsibility to assess the safety and suitability of these instructions.
 
