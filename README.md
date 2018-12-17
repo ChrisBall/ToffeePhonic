@@ -4,7 +4,7 @@
 
 ToffeePhonic is an open-source range sensing instrument. It measures distance using a Time-Of-Flight (TOF) sensor and converts the range into music with it's onboard synthesiser, or sends MIDI out over USB.
 
-The instructions here should contain everything you need to build your own, including a bill of materials, laser cutting files, build guide and instructions for use. This project is probably not suitable for complete beginners (at the moment).
+The instructions here should contain everything you need to build your own, including a bill of materials, laser cutting files, build guide, code and instructions for use. This project is probably not suitable for complete beginners (at the moment).
 
 [Bill of materials](docs/BOM.md)
 
@@ -16,7 +16,7 @@ The instructions here should contain everything you need to build your own, incl
 
 [Instructions for use](docs/Instructions.md)
 
-[This project on Github] (https://github.com/ChrisBall/ToffeePhonic
+[This project on Github] (https://github.com/ChrisBall/ToffeePhonic)
 
 Development of the instrument and this guide has been part-funded by the wonderful [Drake Music](http://www.drakemusic.org/).
 
