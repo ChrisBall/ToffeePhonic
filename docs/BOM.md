@@ -1,4 +1,4 @@
-# BILL OF MATERIALS
+## BILL OF MATERIALS
 
 [Feather 32u4 proto](https://www.adafruit.com/product/2771): [UK Supplier](https://shop.pimoroni.com/products/adafruit-feather-32u4-basic-proto)
 
