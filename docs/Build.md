@@ -167,6 +167,10 @@ and swap the pin numbers as necessary.
 2. Glue the rectangular spacer in place on the base. Each hole should line up perfectly with the centre of each hexagon on the base piece.
 
     ![gluing base](img/030.jpg)
+	
+	You may wish to use your M2 nuts and bolts to make sure the piece is in the correct place.
+	
+	![gluing base](img/030a.jpg)
 
 
 3. Glue together these 5 parts: the two sides, the front and back, and the base.
