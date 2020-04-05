@@ -1,0 +1,22 @@
+The MP3 version of toffeephonic expects an SD card loaded with instrument samples.
+
+Each MP3 needs to be in a folder - instrumentNumber/noteNumber.mp3
+
+e.g.
+
+00/01.mp3
+
+127/64.mp3
+
+Instruments can be 0-127.
+
+Note Numbers can be 0-127.
+
+
+
+In future versions, it may be that the folder can be named, e.g.
+
+Guitar/37.mp3
+
+and the toffeePhonic will scan for and scroll through folder names instead of numbers.
+
