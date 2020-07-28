@@ -7,7 +7,7 @@ The beam will operate best in low light (preferably complete darkness, but I rea
 
 The sensor used in this device is the VL53L1X time-of-flight sensor.
 
-This is a prototype device and may not always behave as expected. If you have any issues or feedback, open n isasue.
+This is a prototype device and may not always behave as expected. If you have any issues or feedback, open an issue.
 
 
 # Power
