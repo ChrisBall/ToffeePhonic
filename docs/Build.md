@@ -128,10 +128,16 @@ Menu Breakout (this will hopefully be replaced by a single PCB in future version
 
 # Programming
 
-1. Download the arduino code here (LINK)
+1. Download the arduino code [here](https://github.com/ChrisBall/ToffeePhonic/blob/master/docs/firmware/ToffeePhonic_basicu).
 
 
-2. Download the arduino IDE (if you don't already have it) here (LINK).
+2. Download the arduino IDE (if you don't already have it) [here](https://www.arduino.cc). There are also three library dependencies not included with arduino:
+
+[ScaleManager](https://github.com/ChrisBall/ScaleManager)
+
+[U8G2](https://github.com/olikraus/u8g2)
+
+[Polulu VL53L1X](https://github.com/pololu/vl53l1x-arduino)
 
 
 3. In the arduino IDE, add the following text to your "Additional boards manager URLs" in the File->preferences menu:
