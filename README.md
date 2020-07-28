@@ -12,7 +12,7 @@ The instructions here should contain everything you need to build your own, incl
 
 [Build guide](docs/Build.md)
 
-[Code](docs/Code.md)
+[Code](docs/firmware/ToffeePhonic_basic)
 
 [Instructions for use](docs/Instructions.md)
 
